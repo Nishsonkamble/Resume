@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,400;0,600;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0,0,0,0,1);
+}
+ .container .left-side{
+    position: relative;
+    background:#003147;
+    padding: 44px;
+}
+ .profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.profiletext img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    margin-left:4px;
+    margin-right:4px;
+}
+.profiletext h3{
+    color:#fff;
+    font-size:15px;
+    margin-top: 20px;
+
+}
+.contact-info {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.contact-info ul{
+    position:relative;
+}
+.contact-info ul li{
+    position:relative;
+    list-style-type: none;
+    margin: 10px 0;
+    cursor:pointer;
+
+}
+.contact-info ul li .icon{
+    display: flex;
+    flex-direction: column;
+    margin-right:12px;
+    width:45px;
+    font-size: 25px;
+    color:aqua;
+}
+.contact-info .title{
+    color: #fff;
+    font-size: 20PX;
+}
+
+.contact-info ul li span{
+    color: #fff;
+    font-weight: 200;
+    padding-left: 2px;
+}
+.education-details{
+    color:#fff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-weight: 300;
+}
+.education-details h5{
+    color:#03a9f4;
+    font-weight: 500;
+}
+.education-details h4{
+    color:#fff;
+    font-weight: 500;
+}
+.education-details h4:nth-child()
+{
+    color:#fff;
+    font-weight: 500;
+}
+.education-details .title{
+    color: #fff;
+    font-size: 20px;
+}
+.languages {
+    position: relative; 
+    
+}
+.languages .title{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 15PX;
+}
+.languages ul li{
+    color: #fff;
+}
+.languages ul li span{
+    color: #fff;
+    font-weight: 200;
+    padding-left: 2px;
+    padding-bottom: 15PX;
+}
+.container .right-side{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+}
+.about{
+    margin-top: 2px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.about h4{
+    margin-top: 7px;
+}
+.title{
+    color:#003147;
+    letter-spacing: 1px;
+
+}
+p{
+    color: #333;
+}
+.about-skill {
+   position: relative;
+   margin-top: 7px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-hobbies{
+    position: relative;
+    margin-top: 10px;
+ }
+ .about-declaration{
+    position: relative;
+    margin-top: 10px;
+   
+ }
+ .about-date{
+    position: relative;
+    margin-top: 2dvh;
+    padding-right: 10px;
+ }
